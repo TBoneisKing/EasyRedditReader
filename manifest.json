@@ -1,0 +1,12 @@
+{
+"name":"ERR",
+"description":"Easy Reddit Reader",
+"version":"1",
+"manifest_version":2,
+"content_scripts": [
+    {
+      "matches": ["http://www.reddit.com/*/*/comments/*","https://www.reddit.com/*/*/comments/*"],
+      "js": ["myscript.js"]
+    }
+  ]
+}
